@@ -1,4 +1,4 @@
-package org.example.core.util;
+package mc.scanner.core.util;
 
 import java.util.Arrays;
 import java.util.List;

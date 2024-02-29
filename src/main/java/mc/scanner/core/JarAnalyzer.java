@@ -1,6 +1,6 @@
-package org.example.core;
+package mc.scanner.core;
 
-import org.example.core.util.FileUtil;
+import mc.scanner.core.util.FileUtil;
 import org.objectweb.asm.ClassReader;
 
 import java.io.IOException;

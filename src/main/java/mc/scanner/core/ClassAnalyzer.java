@@ -1,8 +1,6 @@
-package org.example.core;
+package mc.scanner.core;
 
 import org.objectweb.asm.*;
-
-import static org.objectweb.asm.Opcodes.ASM7;
 
 public class ClassAnalyzer extends ClassVisitor{
     private String fileName;

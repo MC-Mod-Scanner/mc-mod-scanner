@@ -1,4 +1,4 @@
-package org.example.core.warning;
+package mc.scanner.core.warning;
 
 public class Warning {
     private final WarningType type;

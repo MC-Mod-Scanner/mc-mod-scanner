@@ -1,4 +1,4 @@
-package org.example.core.util;
+package mc.scanner.core.util;
 
 public class AllowedFile {
     private final String extension;

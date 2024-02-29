@@ -1,9 +1,9 @@
-package org.example.core;
+package mc.scanner.core;
 
-import org.example.core.warning.Owners;
-import org.example.core.warning.Warning;
-import org.example.core.warning.WarningManager;
-import org.example.core.warning.WarningType;
+import mc.scanner.core.warning.Warning;
+import mc.scanner.core.warning.Owners;
+import mc.scanner.core.warning.WarningManager;
+import mc.scanner.core.warning.WarningType;
 import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.Opcodes;
 

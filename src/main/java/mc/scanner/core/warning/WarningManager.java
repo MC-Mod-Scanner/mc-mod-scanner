@@ -1,4 +1,4 @@
-package org.example.core.warning;
+package mc.scanner.core.warning;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

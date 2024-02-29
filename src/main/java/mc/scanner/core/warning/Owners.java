@@ -1,4 +1,4 @@
-package org.example.core.warning;
+package mc.scanner.core.warning;
 
 import java.util.Arrays;
 import java.util.List;

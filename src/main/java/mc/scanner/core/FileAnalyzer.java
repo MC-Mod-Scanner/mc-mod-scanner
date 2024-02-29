@@ -1,10 +1,10 @@
-package org.example.core;
+package mc.scanner.core;
 
-import org.example.core.util.AllowedFile;
-import org.example.core.util.FileUtil;
-import org.example.core.warning.Warning;
-import org.example.core.warning.WarningManager;
-import org.example.core.warning.WarningType;
+import mc.scanner.core.util.FileUtil;
+import mc.scanner.core.warning.Warning;
+import mc.scanner.core.util.AllowedFile;
+import mc.scanner.core.warning.WarningManager;
+import mc.scanner.core.warning.WarningType;
 
 import java.util.jar.JarEntry;
 

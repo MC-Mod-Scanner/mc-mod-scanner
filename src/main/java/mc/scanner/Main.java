@@ -1,15 +1,7 @@
-package org.example;
+package mc.scanner;
 
-import org.example.core.ClassAnalyzer;
-import org.example.core.JarAnalyzer;
-import org.example.core.warning.Warning;
-import org.example.core.warning.WarningManager;
-import org.objectweb.asm.*;
-
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.Map;
+import mc.scanner.core.JarAnalyzer;
+import mc.scanner.core.warning.WarningManager;
 
 public class Main {
 
