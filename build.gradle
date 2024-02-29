@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'org.example.Main' // Replace with your actual main class
+        )
+    }
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    // https://mvnrepository.com/artifact/org.ow2.asm/asm
+    implementation group: 'org.ow2.asm', name: 'asm', version: '9.6'
+
+    // https://mvnrepository.com/artifact/org.ow2.asm/asm-tree
+    implementation group: 'org.ow2.asm', name: 'asm-tree', version: '9.6'
+
+    // https://mvnrepository.com/artifact/org.javassist/javassist
+    implementation group: 'org.javassist', name: 'javassist', version: '3.30.2-GA'
+
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.16.1'
+
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.16.1'
+}
+
+test {
+    useJUnitPlatform()
+}
