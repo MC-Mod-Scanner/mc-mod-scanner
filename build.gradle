@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group = 'org.example'
+group = 'mc.scanner'
 version = '1.0-SNAPSHOT'
 
 repositories {
@@ -12,7 +12,7 @@ repositories {
 jar {
     manifest {
         attributes(
-                'Main-Class': 'org.example.Main' // Replace with your actual main class
+                'Main-Class': 'mc.scanner.Main' // Replace with your actual main class
         )
     }
 }
