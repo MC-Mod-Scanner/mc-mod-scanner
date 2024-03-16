@@ -1,4 +1,4 @@
-package mc.scanner.core.warning;
+package mc.scanner.core.code;
 
 public enum WarningType {
     EXTRACTED_JAR_SIZE,

@@ -2,9 +2,13 @@ package mc.scanner.core;
 
 import mc.scanner.core.util.FileUtil;
 import org.objectweb.asm.ClassReader;
+import org.objectweb.asm.ClassVisitor;
+import org.objectweb.asm.ClassWriter;
+import org.objectweb.asm.util.TraceClassVisitor;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.PrintWriter;
 import java.util.Collections;
 import java.util.List;
 import java.util.jar.JarEntry;
@@ -47,6 +51,7 @@ public class JarAnalyzer {
                 .forEach(entry -> {
                     try {
                         InputStream classStream = jar.getInputStream(entry);
+                        //ByteCodeDumper.dumpByteCode(classStream);
                         ClassReader classReader = new ClassReader(classStream);
                         classReader.accept(new ClassAnalyzer(entry.getName()), 0);
                     } catch(IOException exception) {

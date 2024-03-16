@@ -1,4 +1,4 @@
-package mc.scanner.core.warning;
+package mc.scanner.core.code;
 
 public class Warning {
     private final WarningType type;

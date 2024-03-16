@@ -1,4 +1,4 @@
-package mc.scanner.core.warning;
+package mc.scanner.core.code;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -6,7 +6,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.*;
 
 public class WarningManager {
-    //private static final Map<String, ArrayList<Warning>> warnings = new HashMap<>();
     private static final LinkedList<ClassWarnings> warnings = new LinkedList<>();
 
     public static void addWarning(String key, Warning warning) {

@@ -1,10 +1,10 @@
 package mc.scanner.core;
 
 import mc.scanner.core.util.FileUtil;
-import mc.scanner.core.warning.Warning;
+import mc.scanner.core.code.Warning;
 import mc.scanner.core.util.AllowedFile;
-import mc.scanner.core.warning.WarningManager;
-import mc.scanner.core.warning.WarningType;
+import mc.scanner.core.code.WarningManager;
+import mc.scanner.core.code.WarningType;
 
 import java.util.jar.JarEntry;
 

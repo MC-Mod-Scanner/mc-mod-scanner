@@ -1,6 +1,5 @@
-package mc.scanner.core.warning;
+package mc.scanner.core.code;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class Owners {
